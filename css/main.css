@@ -1,0 +1,48 @@
+.wrapper {
+  position: relative;
+  float: left;
+  margin: 20px 0px 20px 90px;
+  height: auto;
+  width: 180px;
+  padding: 10px 55px;
+  text-align: justify;
+  transition: all ease-in-out 0.5s;
+}
+.wrapper:hover {
+  background-color: red;
+  transition: all ease-in-out 0.5s;
+}
+.icon-wrapper-border {
+  position: absolute;
+  height: 53px;
+  width: 53px;
+  left: -20px;
+  top: 40%;
+  border: 1px solid red;
+  transform: rotate(45deg);
+  transition: all ease-in-out 0.7s;
+}
+.icon-wrapper {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  right: 0;
+  bottom: 0;
+  background-color: red;
+  transition: all ease-in-out 0.7s;
+}
+.wrapper:hover .icon-wrapper {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 0;
+  bottom: 0;
+  background-color: red;
+  transition: all ease-in-out 0.10s;
+}
+.fas {
+  position: absolute; 
+  margin: 16px 15px;
+  transform: rotate(-45deg);
+  transition: all ease-in-out 0.7s;
+}
